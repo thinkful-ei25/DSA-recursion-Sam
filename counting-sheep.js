@@ -8,4 +8,12 @@ function countSheep(num){
   countSheep(num - 1);
 }
 
-countSheep(3);
+//countSheep(3);
+
+function countSheep2(num){
+  for(let i=num;i>0;i--){
+    console.log(i + ' - Another sheep jump over the fence');
+  }
+}
+
+countSheep2(3);

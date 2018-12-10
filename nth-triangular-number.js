@@ -8,4 +8,14 @@ function tri(n){
 
 const answer = tri(2);
 
-console.log(answer);
+//console.log(answer);
+
+function tri2(n){
+  let answer=0;
+  for(let i=0;i<=n;i++){
+    answer += i;
+  }
+  return answer;
+}
+
+console.log(tri2(4));

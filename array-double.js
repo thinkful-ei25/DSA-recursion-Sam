@@ -8,5 +8,15 @@ function arrayDouble(arr){
 
 }
 
-const answer = arrayDouble([1,2,3]);
-console.log(answer);
+//const answer = arrayDouble([1,2,3]);
+//console.log(answer);
+
+function arrayDouble2(arr){
+  let answer = [];
+  for(let i=0; i<arr.length;i++){
+    answer.push(arr[i]*2);
+  }
+  return answer;
+}
+
+console.log(arrayDouble2([1,2,3]));
