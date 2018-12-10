@@ -11,3 +11,18 @@ function fibonacci(num){
 
 const answer = fibonacci(7);
 console.log(answer);
+
+function fibonacci2(num){
+  let a = 1;
+  let b = 0;
+  let temp;
+  while(num>0){
+    temp = a;
+    a = a+b;
+    b = temp;
+    num--;
+  }
+  return b;
+}
+
+console.log(fibonacci2(7));
